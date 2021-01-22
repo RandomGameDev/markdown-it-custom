@@ -5,7 +5,7 @@ desc: Default
 
 Inline
 .
-Hello @[content](first::First inline) something @[content3](second::Second inline::sec) @[content](third::Last inline)
+Hello @(content)[first::First inline] something @(content3)[second::Second inline::sec] @(content)[third::Last inline]
 .
 <p>Hello <custom name="first">First inline</custom> something <custom-three name="second" id="sec">Second inline</custom-three> <custom name="third">Last inline</custom></p>
 .
@@ -13,7 +13,7 @@ Hello @[content](first::First inline) something @[content3](second::Second inlin
 
 Block 1
 .
-@[content](first::First custom rule)
+@(content)[first::First custom rule]
 .
 <p><custom name="first">First custom rule</custom></p>
 .
@@ -21,7 +21,7 @@ Block 1
 
 Block 2
 .
-@[content3](second::2nd custom rule::sec)
+@(content3)[second::2nd custom rule::sec]
 .
 <p><custom-three name="second" id="sec">2nd custom rule</custom-three></p>
 .
