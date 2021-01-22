@@ -1,0 +1,21 @@
+{
+  "name": "markdown-it-custom",
+  "version": "1.0.0",
+  "description": "Custom parsing for markdown-it",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn mocha --colors"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "markdown",
+    "markdown-it",
+    "markdown-it-plugin"
+  ],
+  "devDependencies": {
+    "markdown-it": "^12.0.4",
+    "markdown-it-testgen": "^0.1.6",
+    "mocha": "^8.2.1"
+  }
+}
